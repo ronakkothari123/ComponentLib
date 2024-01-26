@@ -1,0 +1,3 @@
+function createComponent(location, args){
+
+}

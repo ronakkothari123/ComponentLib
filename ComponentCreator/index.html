@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component Creator - ComponentLib</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="parent-window">
+        <div id="language-divs">
+            <div class="language-div">
+                <div id="language-div-header-1">
+                    <img src="img/html.png" alt="">
+                    <p>HTML</p>
+                    <button>+ Variable</button>
+                    <button onclick="runCode()">Run Code</button>
+                </div>
+                <div>
+                    <textarea id="htmlEditor" class="editor" placeholder="Write HTML here..."></textarea>
+                </div>
+            </div>
+            <div class="language-div">
+                <div id="language-div-header-2">
+                    <img src="img/css.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <textarea id="cssEditor" class="editor" placeholder="Write CSS here..."></textarea>
+                </div>
+            </div>
+            <div class="language-div">
+                <div id="language-div-header-3">
+                    <img src="img/js.png" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <textarea id="jsEditor" class="editor" placeholder="Write JavaScript here..."></textarea>
+                </div>
+            </div>
+        </div>
+        <div id="main-window">
+            <div id="interface">
+                <iframe id="output"></iframe>
+            </div>
+            <div id="component-output">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

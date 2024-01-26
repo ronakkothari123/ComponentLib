@@ -1,0 +1,10 @@
+<div style="border-radius:6px; box-shadow:0 0 12px 0 gray; padding:24px; background:white; width:128px; height:24px;">
+    <div style="">
+        <h1>${title}</h1>
+        <p onclick="${closeButton()}">X</p>
+    </div>
+    <p>${description}</p>
+    <div>
+        <button style="background-color:${accentColor}; border-radius:3px; font-size:12px;">${button}</button>
+    </div>
+</div>
